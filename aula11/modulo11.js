@@ -35,10 +35,12 @@ esse objeto tem.
 Após o loop, mostre a frase:
 'The person has [COUNTER] properties'
 */
+var count = 0;
 for(var prop in person){
     console.log('The ' + prop + ' of person is ' + person[prop]);
+    count++
 }
-
+console.log('The person has ' + count + ' properties');
 /*
 Crie uma função chamada `moreThan`, que vai verificar se a pessoa (objeto
 criado acima) é mais velha que a idade passada por parâmetro.
