@@ -49,7 +49,7 @@ Após a função, mostrar a mensagem no console:
 'The person has more than 25 years old? [TRUE/FALSE]'
 */
 function moreThan(age){
-    return age > person.age ? true : false;
+    return age < person.age ? true : false;
 }
 
 console.log('The person has more than 25 years old? ', moreThan(25));
